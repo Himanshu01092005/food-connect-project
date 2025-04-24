@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// AhaarSetu brand colors
+				"ahaarsetu": {
+					orange: "#F47920", // Main orange from logo
+					green: "#4D7C0F",  // Green from bowl in logo
+					brown: "#5D3B15",  // Brown from text in logo
+					cream: "#F5EFE0",  // Background cream color
+					rice: "#FFC55F",   // Rice color from logo
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
